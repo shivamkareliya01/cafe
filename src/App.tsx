@@ -129,9 +129,7 @@ export default function App() {
           </nav>
 
           <div className="flex items-center gap-6">
-            <div className="hidden lg:block text-xs font-mono tracking-widest text-white/40">
-              FRAME {Math.min(frameCount, Math.floor(progressVal * frameCount) + 1).toString().padStart(3, '0')}
-            </div>
+
             <a href="#order" className="hidden md:inline-flex px-5 py-2 rounded-full bg-primary-container text-white font-label-caps text-[11px] tracking-widest uppercase hover:bg-primary hover:text-black transition-colors shadow-[0_0_15px_rgba(79,122,58,0.2)]">
               Order Now
             </a>
